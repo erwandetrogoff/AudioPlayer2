@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.isen.projet1.audioplayer.MainActivity">
+    <item
+        android:src="@drawable/research"
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="always" />
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/research"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+</menu>
